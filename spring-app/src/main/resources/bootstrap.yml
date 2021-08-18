@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    consul:
+      config:
+        prefixes:
+          - spring-configs
+        format: yaml
+      host: ${CONSUL_HOST}
+  application:
+    name: test

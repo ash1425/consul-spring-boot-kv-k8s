@@ -1,3 +1,8 @@
+## What is it?
+
+Demo showing integration of Spring boot app with consul kv store for centralised config. Also includes directions on how to set it up on k8s.
+***** NON PRODUCTION SETUP *****
+
 ## How to run
 
 ### run `setup.sh`

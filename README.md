@@ -21,3 +21,8 @@ Checking that it works -
 
 1. port forward spring boot app port 8080
 2. `curl localhost:8080/message` you should get `Hello World` - this message is coming from consul - you can modify this message on consul UI (port forward 8500 for consul server pod and try changing the message and redeploy the spring boot app)
+
+
+## Reference
+- https://blog.baeke.info/2020/05/05/getting-started-with-consul-on-kubernetes/#content
+- https://cloud.spring.io/spring-cloud-consul/reference/html/#spring-cloud-consul-config
